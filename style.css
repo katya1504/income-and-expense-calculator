@@ -1,0 +1,89 @@
+body{
+    background: linear-gradient(180deg, #ffffff, rgb(199, 175, 250), rgb(124, 72, 175));
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(118, 25, 189);
+}
+
+.image{
+    display: flex;
+justify-content: center;
+margin: 15px;
+}
+.tableOne{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.tableTwo{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+ td{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(242, 232, 251);
+    width: 180px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    color: rgb(245, 243, 246);
+}
+
+
+
+input{
+    width: 150px;
+    height: 30px;
+    margin: 3px;
+    border-radius: 10px;
+    border: 1px solid rgb(83, 1, 130);
+    text-align: center;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+    background-color: rgb(253, 237, 108);
+    border: none;
+    color: rgb(83, 1, 130);
+    border-radius: 15px;
+}
+
+.tableOne__amount, .tableTwo__amount{
+    font-weight: bolder;
+    color: rgb(64, 3, 110);
+}
+
+.btn__one, .btn__result{
+    margin: 10px;
+}
+
+.btn__twoo, .btn__text, .result__finish{
+    color:rgb(58, 2, 110);
+    font-size: 20px;
+    font-weight: bolder;
+    width: 40px;
+    height: 40px;
+}
+

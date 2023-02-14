@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+<header class="container">
+    <h2>Контроль ваших доходов</h2>
+</header>
+
+<section class="image">
+    <img src="calculate.png" width="160px">
+</section>
+
+<section class="tableOne">
+<table>
+<tr>
+    <td class="tableOne__amount">Доходы</td>
+    <td class="tableOne__amount">Сумма</td>
+</tr>
+
+<tr>
+    <td>Зарплата</td>
+    <td><input type="text" placeholder="..." id="inputOne"></td>
+</tr>
+<tr>
+    <td>Подработка</td>
+    <td><input type="text" placeholder="..." id="inputTwoo"></td>
+</tr>
+<tr>
+    <td>Дивиденды</td>
+    <td><input type="text" placeholder="..." id="inputThree"></td>
+</tr>
+</table>
+</section>
+
+<section class="btn">
+    <button class="btn__one">Итого</button>
+    <p class="btn__twoo"></p>
+</section>
+
+<section class="tableTwo">
+    <table>
+        <tr>
+            <td class="tableTwo__amount">Расходы</td>
+            <td class="tableTwo__amount">Сумма</td>
+        </tr>
+        <tr>
+            <td>Еда</td>
+            <td><input type="text" placeholder="..." id="inputFoir"></td>
+        </tr>
+        <tr>
+            <td>Транспорт</td>
+            <td><input type="text" placeholder="..." id="inputFive"></td>
+        </tr>
+        <tr>
+            <td>Коммунальные</td>
+            <td><input type="text" placeholder="..." id="inputSix"></td>
+        </tr>
+        <tr>
+            <td>Кредит</td>
+            <td><input type="text" placeholder="..." id="inputSeven"></td>
+        </tr>
+        <tr>
+            <td>Кафе и рестораны</td>
+            <td><input type="text" placeholder="..." id="inputEight"></td>
+        </tr>
+        <tr>
+            <td>Здоровье</td>
+            <td><input type="text" placeholder="..." id="inputNine"></td>
+        </tr>
+        <tr>
+            <td>Разное</td>
+            <td><input type="text" placeholder="..." id="inputTen"></td>
+        </tr>
+    </table>
+</section>
+
+    <section class="btn">
+        <button class="btn__result">Итого</button>
+        <p class="btn__text"></p>
+    </section>
+
+    <section class="result">
+        <button class="result__btn">Остаток</button>
+        <p class="result__finish"></p>
+    </section>
+
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
